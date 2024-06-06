@@ -1,0 +1,126 @@
+.tictrashtoe-achievements{
+    display:flex;
+    justify-content: space-around;
+    height:90vh;
+    align-items: center;
+    padding-bottom:5vh;
+}
+
+.tictrashtoe-achievements-background_img{
+    width:100%;
+    position:absolute;
+    z-index:0;
+    height:100%;
+}
+
+.tictrashtoe-achievement-card-img-container{
+    background-color:var(--secondary-color1);
+    width:fit-content;
+    padding:2vw;
+    margin:1vw;
+}
+
+.tictrashtoe-achievement-card-img{
+    width:10vw;
+    height:12vh;
+}
+
+.tictrashtoe-achievements-cards{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0 0;
+    height:90%;
+}
+
+.tictrashtoe-achievement-card{
+    background-color: rgb(255, 241, 223);
+    position:relative;
+    display:flex;
+    z-index:10;
+    margin:1vh 0;
+}
+
+.tictrashtoe-achievements-content{
+    z-index:10;
+    position:relative;
+    width:40%;
+    height:90%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.tictrashtoe-achievement-card-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 60%;
+}
+
+.tictrashtoe-achievement-card_title{
+    font-family:var(--font-family1);
+    font-size:5vw;
+}
+
+.tictrashtoe-achievement-card_subtext{
+    font-family:var(--font-family2);
+    font-size:1vw;
+}
+
+.tictrashtoe-achievements-content-why{
+    font-family:var(--font-family1);
+    font-size:2vw;
+    color:brown;
+    font-weight:900;
+}
+
+.tictrashtoe-achievements-content-title{
+    font-family:var(--font-family1);
+    font-size:4vw;
+    font-weight:bold;
+}
+
+.tictrashtoe-achievements-content-text{
+    font-family:var(--font-family2);
+    font-size:1.5vw;
+    font-weight:500;
+}
+
+@media screen and (max-width:920px){
+    .tictrashtoe-achievements{
+        flex-direction:column;
+        padding-bottom:3vh;
+    }
+    .tictrashtoe-achievements-content-text{
+        display:none;
+    }
+    .tictrashtoe-achievements-content{
+        width:100%;
+        align-items: center;;
+    }
+    .tictrashtoe-achievements-content-why{
+        width:80%;
+        text-align:left;
+        height:30%;
+        font-size:150%;
+    }
+    .tictrashtoe-achievements-content-title{
+        width:80%;
+        height:60%;
+        font-size:220%;
+    }
+    .tictrashtoe-achievements-cards{
+        width:80%;
+    }
+    .tictrashtoe-achievement-card-content{
+        padding-left:5vw;
+    }
+    .tictrashtoe-achievement-card_title{
+       font-size:8vw;
+    }
+    .tictrashtoe-achievement-card_subtext{
+        font-size: 3vw;
+    }
+}
