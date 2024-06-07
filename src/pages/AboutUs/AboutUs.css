@@ -188,29 +188,38 @@
 
 
 @media screen and (max-width:920px){
+
+    .aboutus{
+        border-top-left-radius: 30px;
+        border-top-right-radius:30px;
+        margin-top:2vh;
+    }
+
     .aboutus-services{
         flex-direction: column;
     }
 
     .tictrashtoe_aboutus-service_card{
         width:70vw;
-        height:50vh;
+        height:40vh;
         margin:5vh auto;
     }
 
-   
+   .aboutus-history{
+        margin-bottom:0;
+   }
 
     .aboutus-hostory-img-container-smallscreen{
         position:relative;
-        margin: 0 3vw;
-        border-radius: 50px;
+        /* margin: 0 3vw; */
+        /* border-radius: 50px; */
         height: 70vh;
     }
 
     .aboutus-history-img-small{
         width: 100%;
         height: auto;
-        border-radius:40px;
+        /* border-radius:40px; */
         height: 70vh;
     }
 
@@ -226,7 +235,7 @@
         justify-content: center; /* Centers horizontally */
         align-items: center; 
         flex-direction: column;
-        border-radius:40px;
+        /* border-radius:40px; */
     }
 
     .aboutus-history-small-textOverlay p{
