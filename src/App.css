@@ -5,3 +5,7 @@
     --font-family1: "Amatic SC", sans-serif;
     --font-family2:"Livvic",sans-serif;
 }
+
+body{
+    overflow-x:hidden;
+}
