@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 .home-title-page{
     /* border:1px solid black; */
     height:90vh;
@@ -66,6 +68,10 @@
     display:none;
 }
 
+.tictrashtoe-home-logo-container{
+    display:none;
+}
+
 
 @media screen and (max-width:413px){
     .home-title-page{
@@ -114,6 +120,25 @@
     .home-title-content-trashcan{
         display:none;
     }
+
+    .tictrashtoe-home-logo{
+        width:80%;
+        height:80%;
+        margin:10%;
+        
+    }
+    
+    .tictrashtoe-home-logo-container{
+        display:block;
+        background-color: white;
+        width:30vw;
+        height:30vw;
+        position:absolute;
+        border-radius:50%;
+        bottom:15%;
+        left:25%;
+    }
+
 }
 
 @media screen and (max-width:1100px) and (min-width:414px){
@@ -142,6 +167,8 @@
     .home-title-page{
         background-color:#fe706b;
     }
+
+    
 }
 
 @media screen and (max-width:1100px) and (min-width:525px){
@@ -149,3 +176,4 @@
         top:25vh;
     }
 }
+

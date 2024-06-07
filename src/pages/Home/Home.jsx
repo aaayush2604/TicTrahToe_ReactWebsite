@@ -5,6 +5,7 @@ import cityBg from '../../assets/cityBackground.png';
 import trashchillguy from '../../assets/trashchillguy.png';
 import trashcan from '../../assets/trashCan.png';
 import Navbar from '../../components/Navbar/Navbar.jsx';
+import Logo from '../../assets/Logo_Green.png';
 import '../../components/Navbar/Navbar.css';
 
 
@@ -20,6 +21,9 @@ const Home = () => {
       <img className='home-title-content-trashCollect-Img' src={trash_collect}></img>
       <img src={trashchillguy} className='home-title-content-trashchillguy'></img>
       <img src={trashcan} className='home-title-content-trashcan'></img>
+      <div className='tictrashtoe-home-logo-container'>
+        <img className='tictrashtoe-home-logo' src={Logo}></img>
+      </div>
     </div>
     </>
 }
